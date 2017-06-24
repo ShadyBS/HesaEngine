@@ -1,0 +1,44 @@
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.dll
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.pdb
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\Runtime.dll
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.xml
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.dll
+C:\Users\Renato\Desktop\Hesaengine\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.pdb
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\Runtime.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\SharpDX.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\Simple Shyvana.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\bin\Debug\Simple Shyvana.pdb
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\obj\Debug\Simple Shyvana.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\ManiacTemplate\obj\Debug\Simple Shyvana.pdb
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\obj\Debug\Simple Shyvana.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\obj\Debug\Simple Shyvana.pdb
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\Simple Shyvana.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\Simple Shyvana.pdb
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\Runtime.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\SharpDX.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple\Simple\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\Simple Shyvana.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\Simple Shyvana.pdb
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\Runtime.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\SharpDX.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\obj\Debug\Simple Shyvana.dll
+C:\Users\Renato\Desktop\Hesaengine\Simple Shyvana\Simple\obj\Debug\Simple Shyvana.pdb
