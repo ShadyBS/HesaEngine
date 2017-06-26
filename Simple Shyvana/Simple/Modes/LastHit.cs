@@ -16,7 +16,7 @@ namespace Simple.Modes
             {
                 if (e && E.GetDamage(m) >= m.Health)
                 {
-                    E.CastIfHitchanceEquals(m, HitChance.Medium);
+                    E.CastIfHitchanceEquals(m, HitChance.High);
                 }
             }
         }
