@@ -31,3 +31,7 @@ C:\Users\Renato\Desktop\Hesaengine\Simple - Copy\Simple\bin\Debug\SharpDX.Direct
 C:\Users\Renato\Desktop\Hesaengine\Simple - Copy\Simple\bin\Debug\SharpDX.DirectInput.xml
 C:\Users\Renato\Desktop\Hesaengine\Simple - Copy\Simple\obj\Debug\Simple XinZhao.dll
 C:\Users\Renato\Desktop\Hesaengine\Simple - Copy\Simple\obj\Debug\Simple XinZhao.pdb
+C:\Users\Renato\Desktop\Simple XinZhao\Simple\bin\Debug\Simple XinZhao.dll
+C:\Users\Renato\Desktop\Simple XinZhao\Simple\bin\Debug\Simple XinZhao.pdb
+C:\Users\Renato\Desktop\Simple XinZhao\Simple\obj\Debug\Simple XinZhao.dll
+C:\Users\Renato\Desktop\Simple XinZhao\Simple\obj\Debug\Simple XinZhao.pdb
