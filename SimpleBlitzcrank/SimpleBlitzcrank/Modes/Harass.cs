@@ -43,7 +43,7 @@ namespace SimpleTemplate.Modes
 			}
 			if (e)
 			{
-				target = TargetSelector.GetTarget(HarassMenu.GetSlider("rangeE"), TargetSelector.DamageType.Physical);
+				target = TargetSelector.GetTarget(E.Range, TargetSelector.DamageType.Physical);
 				if (target != null && !Functions.HasSpellShield(target))
 				{
 					E.Cast();
