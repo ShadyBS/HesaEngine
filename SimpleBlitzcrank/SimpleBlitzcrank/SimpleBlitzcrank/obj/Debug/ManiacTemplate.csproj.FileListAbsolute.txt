@@ -1,0 +1,11 @@
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.pdb
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\fasmdll_managed.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\fasmdll_managed.pdb
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.csprojResolveAssemblyReference.cache
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.pdb
