@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DarkPrediction.cs" />
     <Compile Include="DrawingManager.cs" />
     <Compile Include="Functions.cs" />
     <Compile Include="Main.cs" />

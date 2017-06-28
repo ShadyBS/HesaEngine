@@ -14,7 +14,7 @@ namespace SimpleTemplate
         
         private static void Drawing_OnDraw(EventArgs args)
         {
-            if (!DrawingMenu.GetCheckbox("enable")) return;
+			if (!DrawingMenu.GetCheckbox("enable")) return;
 
 			if (DrawingMenu.GetCheckbox("drawQ"))
 			{

@@ -1,0 +1,4 @@
+C:\Users\Renato\Desktop\SimpleBlitzcrank\SimpleBlitzcrank\bin\Debug\Blitzcrank by BadCommand.dll
+C:\Users\Renato\Desktop\SimpleBlitzcrank\SimpleBlitzcrank\bin\Debug\Blitzcrank by BadCommand.pdb
+C:\Users\Renato\Desktop\SimpleBlitzcrank\SimpleBlitzcrank\obj\Debug\Blitzcrank by BadCommand.dll
+C:\Users\Renato\Desktop\SimpleBlitzcrank\SimpleBlitzcrank\obj\Debug\Blitzcrank by BadCommand.pdb

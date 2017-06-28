@@ -1,11 +1,14 @@
 ﻿using HesaEngine.SDK;
 using HesaEngine.SDK.Enums;
 using HesaEngine.SDK.GameObjects;
-using SimpleTemplate.Modes;
+using HesaEngine.SDK.Args;
+using HesaEngine.SDK.Notifications;
 using static HesaEngine.SDK.ObjectManager;
+using SimpleTemplate.Modes;
 using static SimpleTemplate.SpellManager;
 using static SimpleTemplate.MenuManager;
 using static SimpleTemplate.DrawingManager;
+using static SimpleTemplate.DarkPrediction;
 
 namespace SimpleTemplate
 {
@@ -16,7 +19,7 @@ namespace SimpleTemplate
 
         public string Name => "Blitzcrank by BadCommand";
 
-        public string Version => "1.0.0";
+        public string Version => "1.0.1";
 
         public string Author => "BadCommand";
 
@@ -27,9 +30,9 @@ namespace SimpleTemplate
         public void OnInitialize()
         {
             Game.OnGameLoaded += Game_OnGameLoaded;
-        }
 
-        private void Game_OnGameLoaded()
+		}
+		private void Game_OnGameLoaded()
         {
             if (Me.Hero != Champion)
                 return;
@@ -39,7 +42,7 @@ namespace SimpleTemplate
 			HesaEngine.SDK.Interrupter.OnInterruptableTarget += Modes.Interrupt.DoInterrupt;
 			LoadDrawings();
             Game.OnTick += Game_OnTick;
-            Chat.Print(Name + " Loaded Successfullyxxasd");
+            Chat.Print(Name + " Loaded Successfully");
         }
 
         private static int _currentLevel = 1;
@@ -54,14 +57,26 @@ namespace SimpleTemplate
 				{
 					AIHeroClient target;
 					target = TargetSelector.GetTarget(QMenu.GetSlider("rangeQ"), TargetSelector.DamageType.Magical);
-					if (target != null && !Functions.HasSpellShield(target))
+					if (MiscMenu.GetCheckbox("useDP"))
 					{
-						Q.CastIfHitchanceEquals(target, HitChance.VeryHigh);
+						var location = LinearPrediction(ObjectManager.Player.Position, Q, (AIHeroClient)target);
+						if (target != null && (target.Distance(ObjectManager.Me) > QMenu.GetSlider("minQ")) && !Functions.HasSpellShield(target) && location != DarkPrediction.empt && !DarkPrediction.CollisionChecker(location, ObjectManager.Me.Position, Q))
+						{
+							Q.Cast(location);
+						}
+					}
+					else
+					{
+						if (target != null && (target.Distance(ObjectManager.Me) > QMenu.GetSlider("minQ")) && !Functions.HasSpellShield(target))
+						{
+							Q.CastIfHitchanceEquals(target, HitChance.VeryHigh);
+						}
+
 					}
 				}
 			}
-			//if (KillstealMenu.GetCheckbox("enable"))
-            //    Killsteal.DoKs();
+			if (KillstealMenu.GetCheckbox("enable"))
+                Killsteal.DoKs();
 
             if (Orb.ActiveMode == Orbwalker.OrbwalkingMode.Combo && mana >= ComboMenu.GetSlider("mana"))
                 Combo.DoCombo();

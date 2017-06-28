@@ -19,7 +19,7 @@ namespace SimpleTemplate
             E = new Spell(SpellSlot.E, 250);
             R = new Spell(SpellSlot.R, 550, TargetSelector.DamageType.Magical);
 
-			Q.SetSkillshot(delay: 0.5f, width: 70, speed: 1800, collision: true, type: SkillshotType.SkillshotLine);
+			Q.SetSkillshot(0.25f, 80f, 1800f, true, SkillshotType.SkillshotLine);
 
            
             Main.QPred = new PredictionInput

@@ -18,9 +18,7 @@ namespace SimpleTemplate.Modes
 
 			if (e)
 			{
-				E.Cast();
-				Orbwalker.ResetAutoAttackTimer();
-				Core.Orbwalker.ForceTarget(Source);
+				E.Cast(Source);
 			}
 
 			if (q)

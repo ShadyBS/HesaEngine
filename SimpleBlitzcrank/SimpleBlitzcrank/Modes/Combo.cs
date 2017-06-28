@@ -1,5 +1,7 @@
 ﻿using HesaEngine.SDK;
 using HesaEngine.SDK.GameObjects;
+using SharpDX;
+using static SimpleTemplate.DarkPrediction;
 using static SimpleTemplate.SpellManager;
 using static SimpleTemplate.MenuManager;
 
@@ -14,13 +16,24 @@ namespace SimpleTemplate.Modes
 			var r = ComboMenu.GetCheckbox("useR") && R.IsReady();
 			var rc = MiscMenu.GetCheckbox("useRafterQ") && R.IsReady();
 			AIHeroClient target;
-
+			
 			if (q)
 			{
 				target = TargetSelector.GetTarget(QMenu.GetSlider("rangeQ"), TargetSelector.DamageType.Magical);
-				if (target != null && (target.Distance(ObjectManager.Me) > QMenu.GetSlider("minQ")) && !QMenu.GetCheckbox("blq" + target.ChampionName) && !Functions.HasSpellShield(target))
+				if (MiscMenu.GetCheckbox("useDP"))
 				{
-					Q.CastIfHitchanceEquals(target, HitChance.VeryHigh);
+					var location = LinearPrediction(ObjectManager.Player.Position, Q, (AIHeroClient)target);
+					if (target != null && (target.Distance(ObjectManager.Me) > QMenu.GetSlider("minQ")) && !QMenu.GetCheckbox("blq" + target.ChampionName) && !Functions.HasSpellShield(target) && location != DarkPrediction.empt && !DarkPrediction.CollisionChecker(location, ObjectManager.Me.Position, Q))
+					{
+						Q.Cast(location);
+					}
+				}
+				else
+				{
+					if (target != null && (target.Distance(ObjectManager.Me) > QMenu.GetSlider("minQ")) && !QMenu.GetCheckbox("blq" + target.ChampionName) && !Functions.HasSpellShield(target))
+					{
+						Q.CastIfHitchanceEquals(target, HitChance.VeryHigh);
+					}
 				}
 			}
 			if (r)
@@ -28,7 +41,7 @@ namespace SimpleTemplate.Modes
 				target = TargetSelector.GetTarget(R.Range, TargetSelector.DamageType.Magical);
 				if (target != null && !Functions.HasSpellShield(target))
 				{
-					if (ObjectManager.Player.CountEnemiesInRange(500f) > ComboMenu.GetSlider("minR"))
+					if (ObjectManager.Player.CountEnemiesInRange(550f) > ComboMenu.GetSlider("minR"))
 						R.Cast();
 
 				}

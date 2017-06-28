@@ -40,11 +40,8 @@ namespace SimpleTemplate
 
 
             FleeMenu = Home.AddSubMenu(Prefix + "Flee");
-            FleeMenu.Add(new MenuCheckbox("useQ", "Use Q", true));
-            FleeMenu.Add(new MenuCheckbox("useW", "Use W", true));
-            FleeMenu.Add(new MenuCheckbox("useE", "Use E", true));
-            FleeMenu.Add(new MenuCheckbox("useR", "Use R", true));
-            FleeMenu.Add(new MenuSlider("mana", "Mana % must be >= ", 10, 100, 5));
+			FleeMenu.Add(new MenuCheckbox("useW", "Use W", true));
+            FleeMenu.Add(new MenuSlider("mana", "Mana % must be >= ", 0, 100, 0));
             
 
             DrawingMenu = Home.AddSubMenu(Prefix + "Drawings");
@@ -64,6 +61,7 @@ namespace SimpleTemplate
 
 
 			MiscMenu = Home.AddSubMenu(Prefix + "Misc");
+			MiscMenu.Add(new MenuCheckbox("useDP", "Use DarkPrediction", true));
 			MiscMenu.Add(new MenuCheckbox("useRafterQ", "Follow up Q with R", true));
 			MiscMenu.Add(new MenuKeybind("manualQ", "Manual grab no blacklist", SharpDX.DirectInput.Key.A, MenuKeybindType.Hold));
 			MiscMenu.Add(new MenuCheckbox("agQ", "AntiGapclose Q", true));
