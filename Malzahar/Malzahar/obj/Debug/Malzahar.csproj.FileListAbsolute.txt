@@ -1,0 +1,4 @@
+C:\Users\Renato\Desktop\Malzahar\Malzahar\bin\Debug\Malzahar.dll
+C:\Users\Renato\Desktop\Malzahar\Malzahar\bin\Debug\Malzahar.pdb
+C:\Users\Renato\Desktop\Malzahar\Malzahar\obj\Debug\Malzahar.dll
+C:\Users\Renato\Desktop\Malzahar\Malzahar\obj\Debug\Malzahar.pdb
