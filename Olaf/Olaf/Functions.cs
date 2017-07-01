@@ -14,8 +14,7 @@ namespace Olaf
     {
         public static bool HasSpellShield(this AIHeroClient target)
         {
-            return target.HasBuff("BlackShield") //Morgana E
-                   || target.HasBuff("SivirE") //Sivir E
+            return target.HasBuff("SivirE") //Sivir E
                    || target.HasBuff("NocturneShroudofDarkness") //Nocturne E
                    || target.HasBuff("bansheesveil") //Banshee
                    || target.HasBuff("itemmagekillerveil"); //

@@ -39,9 +39,8 @@ namespace Olaf
             LoadSpells();
             LoadDrawings();
             Game.OnTick += Game_OnTick;
-			Obj_AI_Base.OnBuffGained += OnBuffGain;
-			Obj_AI_Base.OnBuffLost += OnBuffLose;
 			Orbwalker.BeforeAttack += Before_Attack;
+			Orbwalker.AfterAttack += Orbwalker_AfterAttack;
 			Chat.Print(Name + " Loaded Successfully");
         }
 
@@ -66,14 +65,23 @@ namespace Olaf
 			}
 		}
 
-		public static void OnBuffGain(Obj_AI_Base sender, Obj_AI_BaseBuffGainedEventArgs args)
-
+		private void Orbwalker_AfterAttack(HesaEngine.SDK.GameObjects.AttackableUnit unit, HesaEngine.SDK.GameObjects.AttackableUnit target)
 		{
-
-		}
-
-		public static void OnBuffLose(Obj_AI_Base sender, Obj_AI_BaseBuffLostEventArgs args)
-		{
+			if (Orb.ActiveMode == Orbwalker.OrbwalkingMode.Combo && ComboMenu.GetCheckbox("useH"))
+			{
+				if (Item.CanUseItem(ItemId.Ravenous_Hydra_Melee_Only))
+				{
+					Item.UseItem(ItemId.Ravenous_Hydra_Melee_Only);
+				}
+				if (Item.CanUseItem(ItemId.Tiamat_Melee_Only))
+				{
+					Item.UseItem(ItemId.Tiamat_Melee_Only);
+				}
+				if (Item.HasItem(3748))
+				{
+					Item.UseItem(3748);
+				}
+			}
 		}
 
 		private static int _currentLevel = 1;

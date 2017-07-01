@@ -22,6 +22,7 @@ namespace Olaf
 			ComboMenu.Add(new MenuCheckbox("useW", "Use W", true));
             ComboMenu.Add(new MenuCheckbox("useE", "Use E", true));
 			ComboMenu.Add(new MenuSlider("minE", "Stop using E if my health % <", 0, 100, 0));
+			ComboMenu.Add(new MenuCheckbox("useh", "Use Hydra/Tiamat", true));
 			ComboMenu.Add(new MenuSlider("mana", "Mana % must be >= ", 0, 100, 0));
 
 

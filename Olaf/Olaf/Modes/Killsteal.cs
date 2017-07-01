@@ -21,12 +21,12 @@ namespace Olaf.Modes
 
 			foreach (var enemy in ObjectManager.Heroes.Enemies.Where(x => x.IsValidTarget(E.Range) && !x.IsDead && !x.IsZombie))
 			{
-				if (e && E.GetDamage(enemy) >= enemy.Health)
+				if (e && !Functions.IsNotKillable(enemy) && E.GetDamage(enemy) >= enemy.Health)
 					E.CastOnUnit(enemy);
 			}
 			foreach (var enemy in ObjectManager.Heroes.Enemies.Where(x => x.IsValidTarget(Q.Range) && !x.IsDead && !x.IsZombie))
 			{
-				if (q && Q.GetDamage(enemy) >= enemy.Health)
+				if (q && !Functions.IsNotKillable(enemy) && Q.GetDamage(enemy) >= enemy.Health)
 				{
 					var location = LinearPrediction(ObjectManager.Player.Position, Q, (AIHeroClient)enemy);
 					if (enemy != null && (enemy.Distance(ObjectManager.Me) < HarassMenu.GetSlider("maxQ")) && location != DarkPrediction.empt)
