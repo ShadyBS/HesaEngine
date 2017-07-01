@@ -1,0 +1,5 @@
+C:\Users\Renato\Desktop\Malzahar - Copy\Malzahar\bin\Debug\Olaf.dll
+C:\Users\Renato\Desktop\Malzahar - Copy\Malzahar\bin\Debug\Olaf.pdb
+C:\Users\Renato\Desktop\Malzahar - Copy\Malzahar\obj\Debug\Olaf.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Malzahar - Copy\Malzahar\obj\Debug\Olaf.dll
+C:\Users\Renato\Desktop\Malzahar - Copy\Malzahar\obj\Debug\Olaf.pdb

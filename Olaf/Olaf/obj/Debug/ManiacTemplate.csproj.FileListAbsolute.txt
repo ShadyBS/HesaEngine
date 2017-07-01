@@ -1,0 +1,41 @@
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.pdb
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\fasmdll_managed.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\bin\Debug\fasmdll_managed.pdb
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.csprojResolveAssemblyReference.cache
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.dll
+D:\MKiper\Documents\Visual Studio 2017\Projects\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.pdb
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.pdb
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.csprojResolveAssemblyReference.cache
+D:\Downloads\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.pdb
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Wrapper.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\Runtime.dll
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll.config
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.xml
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.xml
+D:\Downloads\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.xml
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\ManiacTemplate.pdb
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Wrapper.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\Runtime.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\HesaEngine.Core.dll.config
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.xml
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.Direct3D9.xml
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\bin\Debug\SharpDX.DirectInput.xml
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.dll
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.pdb
+D:\Github Repository\HesaEngine\ManiacTemplate\ManiacTemplate\obj\Debug\ManiacTemplate.csprojResolveAssemblyReference.cache
