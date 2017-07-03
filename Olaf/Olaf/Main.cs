@@ -2,8 +2,8 @@
 using HesaEngine.SDK.Args;
 using HesaEngine.SDK.Enums;
 using HesaEngine.SDK.GameObjects;
-using Olaf.Modes;
 using static HesaEngine.SDK.ObjectManager;
+using Olaf.Modes;
 using static Olaf.SpellManager;
 using static Olaf.MenuManager;
 using static Olaf.DrawingManager;
@@ -44,7 +44,6 @@ namespace Olaf
 			Chat.Print(Name + " Loaded Successfully");
         }
 
-
 		public static void Before_Attack(BeforeAttackEventArgs ArgsTarget)
 		{
 			if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo) && ComboMenu.GetCheckbox("useW"))
@@ -65,21 +64,25 @@ namespace Olaf
 			}
 		}
 
+		public static Item THydra;
+
 		private void Orbwalker_AfterAttack(HesaEngine.SDK.GameObjects.AttackableUnit unit, HesaEngine.SDK.GameObjects.AttackableUnit target)
 		{
+			THydra = new Item(3748, 385);
 			if (Orb.ActiveMode == Orbwalker.OrbwalkingMode.Combo && ComboMenu.GetCheckbox("useH"))
 			{
 				if (Item.CanUseItem(ItemId.Ravenous_Hydra_Melee_Only))
 				{
 					Item.UseItem(ItemId.Ravenous_Hydra_Melee_Only);
 				}
-				if (Item.CanUseItem(ItemId.Tiamat_Melee_Only))
+				else if (Item.CanUseItem(ItemId.Tiamat_Melee_Only))
 				{
 					Item.UseItem(ItemId.Tiamat_Melee_Only);
 				}
-				if (Item.HasItem(3748))
+				else if (Item.HasItem(3748) && THydra.IsReady())
 				{
 					Item.UseItem(3748);
+					Orbwalker.ResetAutoAttackTimer();
 				}
 			}
 		}

@@ -8,3 +8,8 @@ C:\Users\Renato\Desktop\Olaf\Olaf\bin\Debug\Olaf.pdb
 C:\Users\Renato\Desktop\Olaf\Olaf\obj\Debug\Olaf.csprojResolveAssemblyReference.cache
 C:\Users\Renato\Desktop\Olaf\Olaf\obj\Debug\Olaf.dll
 C:\Users\Renato\Desktop\Olaf\Olaf\obj\Debug\Olaf.pdb
+C:\Users\Renato\Desktop\Source Codes\Olaf\Olaf\bin\Debug\Olaf.dll
+C:\Users\Renato\Desktop\Source Codes\Olaf\Olaf\bin\Debug\Olaf.pdb
+C:\Users\Renato\Desktop\Source Codes\Olaf\Olaf\obj\Debug\Olaf.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Source Codes\Olaf\Olaf\obj\Debug\Olaf.dll
+C:\Users\Renato\Desktop\Source Codes\Olaf\Olaf\obj\Debug\Olaf.pdb
