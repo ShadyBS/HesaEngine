@@ -62,7 +62,7 @@ namespace Syndra
 			KillstealMenu.Add(new MenuCheckbox("useIgnite", "Use Ignite", true));
 			KillstealMenu.Add(new MenuCheckbox("useQ", "Use Q", true));
             KillstealMenu.Add(new MenuCheckbox("useW", "Use W", true));
-			KillstealMenu.Add(new MenuCheckbox("useR", "Use R on the enemies bellow", true));
+			KillstealMenu.Add(new MenuCheckbox("useR", "Use R on the enemies below", true));
 			foreach (var hero in HesaEngine.SDK.ObjectManager.Heroes.Enemies)
 			{
 				KillstealMenu.Add(new MenuCheckbox("rlist" + hero.ChampionName, hero.ChampionName, true));
