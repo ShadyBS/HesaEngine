@@ -1,0 +1,17 @@
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\bin\Debug\Ekko.dll
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\bin\Debug\Ekko.pdb
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\bin\Debug\HesaEngine.Core.dll
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\bin\Debug\Runtime.dll
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\obj\Debug\Ekko.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\obj\Debug\Ekko.dll
+C:\Users\Renato\Desktop\Source Codes\Ekko\Ekko\obj\Debug\Ekko.pdb
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\bin\Debug\Ekko.dll
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\bin\Debug\Ekko.pdb
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\bin\Debug\HesaEngine.Core.dll
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\bin\Debug\Runtime.dll
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\obj\Debug\Ekko.dll
+C:\Users\Renato\Desktop\Source Codes\Syndra\Ekko\obj\Debug\Ekko.pdb
